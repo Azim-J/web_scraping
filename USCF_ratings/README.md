@@ -4,3 +4,6 @@ Process:
 Every player on USCF is given an ID. Using this ID, a player's chess information can be found at the url https://ratings.uschess.org/player/{id}, substituting in the actual player id for {id}.
 However, there is no endpoint url to specifically retrieve ratings, and the ratings themselves are not encoded in html. Therefore, Selenium was used to access the ratings of the player.
 Selenium searched for certain classes, CSS selectors, or XPATHs, which were found using DevTools and inspecting the website.
+
+Use/Purpose:
+This program allows me to gather information about top people in my local chess club, which is one of my interests.
